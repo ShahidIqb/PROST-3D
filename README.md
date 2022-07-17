@@ -32,7 +32,8 @@ Installation of anaconda3 is prerffered
 
     {-h, --help}	command-line summary
     
-    Prediction for a single mutation
+
+Prediction for a single mutation
       python PROST-GDNet_predict.py -pdb_id RCSB PDB ID --mutation wild-type position mutant-type temp°C(optional) pH(optional) --outdir (optional)     Result --out-file (optional) mutation_result
     python PROST-GDNet_predict.py -file Path_To_PDB_Structure --mutation wild-type position mutant-type temp°C(optional) pH(optional) --outdir (optional) Result --out-file (optional) mutation_result
     Prediction for list of mutations
@@ -40,7 +41,7 @@ Installation of anaconda3 is prerffered
        python PROST-GDNet_predict.py -file Path_To_PDB_Structure -mutlist Path_To_Mutation_List -outdir(optional) Result -out-file(optional) mut_list_Result
        
 4. Examples of how to run a single mutation and list of mutations
-python PROST-GDNet_predict.py -pdb_id 1aky --mutation A V 8 I 25 7  --outdir Result --out-file 1aky_prediction
-python PROST-GDNet_predict.py -pdb_id 1aky --mutation-list Input/1aky_mutlist.txt  --outdir Result --out-file 1aky_prediction
+  1. python PROST-GDNet_predict.py -pdb_id 1aky --mutation A V 8 I 25 7  --outdir Result --out-file 1aky_prediction
+  2. python PROST-GDNet_predict.py -pdb_id 1aky --mutation-list Input/1aky_mutlist.txt  --outdir Result --out-file 1aky_prediction
 
-*Auxiliary files will be stored inside aux_files directory.
+**Auxiliary files will be stored inside aux_files directory.
