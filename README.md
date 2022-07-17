@@ -46,7 +46,9 @@ Prediction for list of mutations
        mut_list_Result
        
 4. Examples of how to run a single mutation and list of mutations
-  1. python PROST-GDNet_predict.py -pdb_id 1aky --mutation A V 8 I 25 7  --outdir Result --out-file 1aky_prediction
-  2. python PROST-GDNet_predict.py -pdb_id 1aky --mutation-list Input/1aky_mutlist.txt  --outdir Result --out-file 1aky_prediction
+
+    1. python PROST-GDNet_predict.py -pdb_id 1aky --mutation A V 8 I 25 7  --outdir Result --out-file 1aky_prediction
+     
+    2. python PROST-GDNet_predict.py -pdb_id 1aky --mutation-list Input/1aky_mutlist.txt  --outdir Result --out-file 1aky_prediction
 
 **Auxiliary files will be stored inside aux_files directory.
