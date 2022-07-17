@@ -37,15 +37,13 @@ Prediction for a single mutation
       
     python PROST-GDNet_predict.py -pdb_id RCSB PDB ID --mutation wild-type position mutant-type temp°C(optional) pH(optional) --outdir (optional) Result --out-file (optional) mutation_result
   
-    python PROST-GDNet_predict.py -file Path_To_PDB_Structure --mutation wild-type position mutant-type temp°C(optional) pH(optional) --outdir (optional) 
-    Result --out-file (optional) mutation_result
+    python PROST-GDNet_predict.py -file Path_To_PDB_Structure --mutation wild-type position mutant-type temp°C(optional) pH(optional) --outdir (optional) Result --out-file (optional) mutation_result
     
 Prediction for list of mutations
        
        python PROST-GDNet_predict.py -pdb_id RCSB PDB ID -mutlist Path_To_Mutation_List -outdir(optional) Result -out-file(optional) mut_list_Result
        
-       python PROST-GDNet_predict.py -file Path_To_PDB_Structure -mutlist Path_To_Mutation_List -outdir(optional) Result -out-file(optional) 
-       mut_list_Result
+       python PROST-GDNet_predict.py -file Path_To_PDB_Structure -mutlist Path_To_Mutation_List -outdir(optional) Result -out-file(optional) mut_list_Result
        
 4. Examples of how to run a single mutation and list of mutations
 
