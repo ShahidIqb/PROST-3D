@@ -1,0 +1,4 @@
+#Chain Wild-type Position Mutant-type Temp(degree c) pH
+A I 28 A 25 6
+A L 29 A 25 6
+A I 30 A 25 6

@@ -1,0 +1,149 @@
+Fold 0
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Fold 0
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.028727 on epoch 25
+Model 0 test rmse = 1.092939
+Model 0 test ddG rmse = 1.092939
+Ensemble test rmse = 1.092939
+Ensemble test ddG rmse = 1.092939
+Fold 1
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.032293 on epoch 21
+Model 0 test rmse = 1.000642
+Model 0 test ddG rmse = 1.000642
+Ensemble test rmse = 1.000642
+Ensemble test ddG rmse = 1.000642
+Fold 2
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.008154 on epoch 17
+Model 0 test rmse = 1.110775
+Model 0 test ddG rmse = 1.110775
+Ensemble test rmse = 1.110775
+Ensemble test ddG rmse = 1.110775
+Fold 3
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.108124 on epoch 26
+Model 0 test rmse = 0.979351
+Model 0 test ddG rmse = 0.979351
+Ensemble test rmse = 0.979351
+Ensemble test ddG rmse = 0.979351
+Fold 4
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.119675 on epoch 20
+Model 0 test rmse = 1.069156
+Model 0 test ddG rmse = 1.069156
+Ensemble test rmse = 1.069156
+Ensemble test ddG rmse = 1.069156
+5-fold cross validation
+	Seed 0 ==> test rmse = 1.092939
+		Seed 0 ==> test ddG rmse = 1.092939
+	Seed 1 ==> test rmse = 1.000642
+		Seed 1 ==> test ddG rmse = 1.000642
+	Seed 2 ==> test rmse = 1.110775
+		Seed 2 ==> test ddG rmse = 1.110775
+	Seed 3 ==> test rmse = 0.979351
+		Seed 3 ==> test ddG rmse = 0.979351
+	Seed 4 ==> test rmse = 1.069156
+		Seed 4 ==> test ddG rmse = 1.069156
+Overall test rmse = 1.050572 +/- 0.051634
+	Overall test ddG rmse = 1.050572 +/- 0.051634
+Elapsed time = 2:36:49
+Fold 0
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.011400 on epoch 25
+Model 0 test rmse = 1.088749
+Model 0 test ddG rmse = 1.088749
+Ensemble test rmse = 1.088749
+Ensemble test ddG rmse = 1.088749
+Fold 1
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.054148 on epoch 22
+Model 0 test rmse = 1.020959
+Model 0 test ddG rmse = 1.020959
+Ensemble test rmse = 1.020959
+Ensemble test ddG rmse = 1.020959
+Fold 2
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.026154 on epoch 16
+Model 0 test rmse = 1.119433
+Model 0 test ddG rmse = 1.119433
+Ensemble test rmse = 1.119433
+Ensemble test ddG rmse = 1.119433
+Fold 3
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.112939 on epoch 26
+Model 0 test rmse = 0.992242
+Model 0 test ddG rmse = 0.992242
+Ensemble test rmse = 0.992242
+Ensemble test ddG rmse = 0.992242
+Fold 4
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.142846 on epoch 20
+Model 0 test rmse = 1.059462
+Model 0 test ddG rmse = 1.059462
+Ensemble test rmse = 1.059462
+Ensemble test ddG rmse = 1.059462
+5-fold cross validation
+	Seed 0 ==> test rmse = 1.088749
+		Seed 0 ==> test ddG rmse = 1.088749
+	Seed 1 ==> test rmse = 1.020959
+		Seed 1 ==> test ddG rmse = 1.020959
+	Seed 2 ==> test rmse = 1.119433
+		Seed 2 ==> test ddG rmse = 1.119433
+	Seed 3 ==> test rmse = 0.992242
+		Seed 3 ==> test ddG rmse = 0.992242
+	Seed 4 ==> test rmse = 1.059462
+		Seed 4 ==> test ddG rmse = 1.059462
+Overall test rmse = 1.056169 +/- 0.045609
+	Overall test ddG rmse = 1.056169 +/- 0.045609
+Elapsed time = 1:51:08
+Fold 0
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.020438 on epoch 22
+Model 0 test rmse = 1.095941
+Model 0 test ddG rmse = 1.095941
+Ensemble test rmse = 1.095941
+Ensemble test ddG rmse = 1.095941
+Fold 1
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.033937 on epoch 16
+Model 0 test rmse = 1.017643
+Model 0 test ddG rmse = 1.017643
+Ensemble test rmse = 1.017643
+Ensemble test ddG rmse = 1.017643
+Fold 2
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.007590 on epoch 21
+Model 0 test rmse = 1.113075
+Model 0 test ddG rmse = 1.113075
+Ensemble test rmse = 1.113075
+Ensemble test ddG rmse = 1.113075
+Fold 3
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.116976 on epoch 26
+Model 0 test rmse = 0.973176
+Model 0 test ddG rmse = 0.973176
+Ensemble test rmse = 0.973176
+Ensemble test ddG rmse = 0.973176
+Fold 4
+Warning: Repeated SMILES found in data, pickle file of split indices cannot distinguish entries and will not be generated.
+Model 0 best validation rmse = 1.129141 on epoch 20
+Model 0 test rmse = 1.049323
+Model 0 test ddG rmse = 1.049323
+Ensemble test rmse = 1.049323
+Ensemble test ddG rmse = 1.049323
+5-fold cross validation
+	Seed 0 ==> test rmse = 1.095941
+		Seed 0 ==> test ddG rmse = 1.095941
+	Seed 1 ==> test rmse = 1.017643
+		Seed 1 ==> test ddG rmse = 1.017643
+	Seed 2 ==> test rmse = 1.113075
+		Seed 2 ==> test ddG rmse = 1.113075
+	Seed 3 ==> test rmse = 0.973176
+		Seed 3 ==> test ddG rmse = 0.973176
+	Seed 4 ==> test rmse = 1.049323
+		Seed 4 ==> test ddG rmse = 1.049323
+Overall test rmse = 1.049831 +/- 0.051065
+	Overall test ddG rmse = 1.049831 +/- 0.051065
+Elapsed time = 1:54:22

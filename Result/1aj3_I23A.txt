@@ -1,0 +1,2 @@
+#Chain Wild-type Position Mutant-type Temp(ºC) pH	 predicted ∆∆G(kcal/mol)
+A C 191 S 23 7	-0.9514759969399984
