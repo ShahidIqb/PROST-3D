@@ -1,7 +1,8 @@
 # RPOST-GDNet
 A tool for predicting the effects of missense mutation on protein stability changes using 3D structural information of protein. The tool is based on Direct Message Passing Neural Network (a graph convolutional neural network) and Deep Learning Neural Network. PROST-GDNet also visualizes and highlights the change in molecular strucutre for a single missense mutation.
 
-![Screen Shot 2022-07-17 at 11 17 48 pm](https://user-images.githubusercontent.com/48677766/179400249-65018ed2-9f77-4031-8c08-d8031e2abdbe.png)
+![Screen Shot 2022-07-18 at 8 05 17 pm](https://user-images.githubusercontent.com/48677766/179489746-304bcfd6-311e-4b48-a3d4-107672487adb.png)
+
 
 Requirements: The requirements.yml file is provided.
 
