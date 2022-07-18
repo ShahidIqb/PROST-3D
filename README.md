@@ -9,8 +9,10 @@ Requirements: The requirements.yml file is provided.
 Installation of anaconda3 is prerffered
 1. create PROST-GDNet environment from the provided requirements.yml file.
 2. Download the following databases and make them ready for searching
+  
   i) uniref50 (https://ftp.uniprot.org/pub/databases/uniprot/uniref/uniref50) [make this ready for blast by using the following command]
-      makeblastdb -in uniref50.fasta -dbtype prot -out uniref50
+        makeblastdb -in uniref50.fasta -dbtype prot -out uniref50
+  
   ii) uniclust30_2018_08 (http://wwwuser.gwdg.de/~compbiol/uniclust/2018_08/uniclust30_2018_08_hhsuite.tar.gz)
   
   2.1) Now, set the paths (in line 21-22 in PROST-GDNet_predict.py) for the installed databases accordingly.
