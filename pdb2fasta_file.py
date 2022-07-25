@@ -22,15 +22,16 @@ def pdbTofasta_seqpos(pdbfile, chain, wild_res, mut_pos, dir):
         f = open(dir + filename, "w")
         f.write(Aname)
         prev = '-1'
+        wr_flag = False
         input_file = open(pdbfile)
         for line in input_file:
             toks = line.split()
-            if len(toks) < 1: continue
-            if toks[0] != 'ATOM': continue
-            if toks[4] != chain: continue
-            if toks[5] != prev:
-                f.write('%c' % translate_3aa1(toks[3]))
+            if len(toks) > 10:
+                if toks[0] == 'ATOM' and toks[4] == chain and toks[5] != prev:
+                    f.write('%c' % translate_3aa1(toks[3]))
+                    wr_flag = True
             prev = toks[5]
+        if toks[0] == 'TER' and wr_flag: break
         f.write('\n')
         f.close()
     # print name
@@ -38,16 +39,17 @@ def pdbTofasta_seqpos(pdbfile, chain, wild_res, mut_pos, dir):
     prev = '-1'
     mut_seqpos = -99999
     count_residues = 0
+    wr_flag = False
     input_file = open(pdbfile)
     for line in input_file:
         toks = line.split()
-        if len(toks) < 1: continue
-        if toks[0] != 'ATOM': continue
-        if toks[4] != chain: continue
-        if toks[5] != prev:
-            count_residues += 1
-            if mut_pos == toks[5] and wild_res == translate_3aa1(toks[3]):
-                mut_seqpos = count_residues
-        prev = toks[5]
+        if len(toks) > 10: 
+            if toks[0] == 'ATOM' and toks[4] == chain and toks[5] != prev:
+                count_residues += 1
+                if str(mut_pos) == toks[5] and wild_res == translate_3aa1(toks[3]):
+                    mut_seqpos = count_residues
+                    wr_flag = True
+            prev = toks[5]
+        if toks[0] == 'TER' and wr_flag: break
     input_file.close()
     return mut_seqpos
