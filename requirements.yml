@@ -1,4 +1,4 @@
-name: RPOST-GDNet
+name: RPOST-3D
 channels:
   - plotly
   - openbabel
