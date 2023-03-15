@@ -1,5 +1,5 @@
 # RPOST-3D
-A tool for predicting the effects of missense mutation on protein stability changes using 3D structural information of protein. The tool is based on Direct Message Passing Neural Network (a graph convolutional neural network) and Deep Learning Neural Network. PROST-3D also visualizes and highlights the change in molecular strucutre for a single missense mutation.
+A tool for predicting the effects of missense mutation on protein stability changes using 3D structural information of a protein. The tool is based on Direct Message Passing Neural Network (a graph convolutional neural network) and Deep Learning Neural Network. PROST-3D also visualizes and highlights the change in molecular strucutre for a single missense mutation.
 
 ![Screen Shot 2022-07-18 at 8 05 17 pm](https://user-images.githubusercontent.com/48677766/179489746-304bcfd6-311e-4b48-a3d4-107672487adb.png)
 
