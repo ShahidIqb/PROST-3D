@@ -36,7 +36,7 @@ def read_mutfile(file_name):
 def get_options():
     """Argument parsing"""
     parser = argparse.ArgumentParser(usage='Invalid arguments.',
-                                     description='PROST-GDNet program for predicting the change in stability (∆∆G(kcal/mol)) upon single point missense mutation.')
+                                     description='PROST-3D program for predicting the change in stability (∆∆G(kcal/mol)) upon single point missense mutation.')
     parser.add_argument('-pdb_id','-pdbid','--pdb_id','--pdbid', type=str, dest='pdb_id', help='Input the RCSB PDB ID of protein.')
     parser.add_argument('-file', '--file', action='store', type=str, dest='input_pdb_file', help='Input PDB formatted file of protein structure.')
     parser.add_argument('-mutation','--mutation', nargs='+', type=str, help='Inline mutation (example: A E 32 G 25 7)')
@@ -88,7 +88,7 @@ class HiddenPrints:
 
 if __name__ == '__main__':
     print("###############################")
-    print("#   PROST-GDNet is running... #")
+    print("#   PROST-3D is running... #")
     print("###############################")
     mol_vis, pdb_id, mut_data, outdir, outfile = get_options()     # parse arguments
     path_data = "aux_files/"     # storage for supplementary files
