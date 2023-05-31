@@ -1,4 +1,4 @@
-name: RPOST-3D
+name: PROST-3D
 channels:
   - plotly
   - openbabel
