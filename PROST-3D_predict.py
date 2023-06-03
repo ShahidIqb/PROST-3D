@@ -19,7 +19,7 @@ global blast_db, hhblits_db, blast_threads
 
 # set these variables accordingly
 blast_db = "$HOME/Downloads/uniref50db/uniref50"
-hhblits_db = "$HOME/Downloads/PROST-SEQ_code/data_ddgun/uniclust30_2018_08/uniclust30_2018_08"
+hhblits_db = "$HOME/Downloads/uniclust30_2018_08/uniclust30_2018_08"
 blast_threads = 12
 
 def read_mutfile(file_name):
